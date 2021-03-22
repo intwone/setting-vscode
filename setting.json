@@ -1,0 +1,66 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+  },
+  "java.semanticHighlighting.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2,
+  "[json]": {
+  
+      "editor.quickSuggestions": {
+          "strings": true
+      },
+      "editor.suggest.insertMode": "replace",
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "emmet.syntaxProfiles": {"javascript": "jsx"},
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  "explorer.compactFolders": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'JetBrains Mono Light'",
+  "terminal.integrated.fontFamily": "JetBrains Mono Light",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "off",
+  "notebook.kernelProviderAssociations": [
+  
+  ],
+
+  "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "entities": "class",
+      "schemas": "class",
+      "typeorm": "database",
+      "repositories": "mappings",
+      "http": "container",
+      "migrations": "tools",
+      "modules": "components",
+      "implementation": "core",
+      "dtos": "typescript",
+      "fakes": "mock",
+      "implementations": "terraform"
+  },
+
+  "material-icon-theme.files.associations": {
+      "ormconfing.json": "database",
+      "tsconfig.json": "tune"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 14
+}
